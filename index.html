@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hang Man Word Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body background="./assets/images/hangman.jpg">
+
+  <div class="jumbotron">
+  <h1 class="display-4">Play HANGMAN!</h1>
+  <p class="lead">Step Inside, Walk This Way, Play HANGMAN "HEY" "HEY"</p>
+
+  </div>
+
+  <div class="card" style="width: 25%;">
+    <div class="card-body">
+      <h3>CURRENT WORD: </h3>
+    </div>
+    <div class="card-body">
+      <h2 id="wordToGuess" style="color: black;">_ _ _ _ _ _ _</h2>
+    </div>
+  </div>
+
+  <div class="card" style="width: 25%;">
+    <div class="card-body" ">
+      WRONG GUESSES: <span id="wrongGuesses"></span>
+    </div>
+  </div>
+
+  <div class="card " style="width: 25%; ">
+    <div class="card-body ">
+      GUESSES REMAINING: <span id="numGuesses"></span>
+    </div>
+  </div>
+
+
+  <div class="card " style="width: 25%; ">
+    <div class="card-body ">
+      WINS: <span id="winCounter"></span>
+    </div>
+  </div>
+
+
+  <div class="card " style="width: 25%; ">
+    <div class="card-body ">
+      LOSSES: <span id="lossCounter"></span>
+    </div>
+  </div>
+
+
+  <!--
+  <div class="card " style="width: 25%; ">
+    <div class="card-body ">
+      This is some text within a card body.
+    </div>
+  </div>
+  -->
+
+
+
+<script src="./assets/javascript/game.js "></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js " integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4 " crossorigin="anonymous "></script>
+</body>
+</html>

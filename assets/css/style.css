@@ -1,0 +1,44 @@
+.maint-title {}
+
+.container {
+  width: 100%;
+  max-width: 1030px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.startscreen {
+  align-content: center;
+  color: white;
+}
+
+.panelleft {
+  width: 50%;
+}
+
+.panelright {
+  width: 50%;
+}
+
+p, h1, h2, {
+  color: rgb(7, 22, 222);
+}
+
+p.lead {
+  text-align: center;
+}
+
+h3, h4 {
+  color: rgb(15, 2, 2);
+}
+
+div h1 {
+  text-align: center;
+  color: rgb(15, 2, 2);
+}
+
+body {
+  min-height: 450px;
+  height: 100vh;
+  margin: 0;
+}
